@@ -1,0 +1,11 @@
+@keyframes example {
+         from {background-color: TURQUOISE;}
+         to {background-color: YELLOW;}
+  }
+div {
+      width: 800px;
+      height: 50px;
+      animation-name: example;
+      animation-duration: 15s
+ 
+      }
