@@ -1,6 +1,6 @@
 @keyframes example {
-         from {background-color: red;}
-         to {background-color: yellow;}
+         from {background-color: YELLOW;}
+         to {background-color: TURQUOISE;}
   }
 
   div {
