@@ -1,11 +1,13 @@
 @keyframes example {
-         from {background-color: TURQUOISE;}
-         to {background-color: YELLOW;}
+         from {background-color: red;}
+         to {background-color: yellow;}
   }
-div {
-      width: 800px;
-      height: 50px;
+
+  div {
+      width: 100px;
+      height: 100px;
+      background-color: red;
       animation-name: example;
-      animation-duration: 15s
- 
-      }
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
